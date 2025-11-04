@@ -1,0 +1,107 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF7E6;
+    color: #003049;
+}
+
+body .main {
+    width: 314px;
+    height: 446px;
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 1px #FFE5AC;
+    border: solid 2px #003049;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: 1;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+
+    background-image: url("../img/login_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body .main #titulo {
+    margin-bottom: 35px;
+}
+
+body .main .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+body .main .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+body .main .form .input-span .label {
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+body .main .form .input-span input {
+    box-shadow: 4px 4px 0px 1px #FFE5AC;
+    border: solid 2px #003049;
+    border-radius: 5px;
+    height: 49px;
+    font-size: 15px;
+}
+
+body .main .form .btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+body .main .form .btns button {
+    width: 45%;
+    height: 49px;
+    background-color: #ffff;
+    color: #003049;
+    border: 2px solid #003049;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 1px #FFE5AC;
+    transition: 0.3s ease;
+}
+
+body .main .form .btns button:hover {
+    border-radius: 0px;
+}
+
+body .main .form p {
+    margin-top: auto; 
+    align-self: center;
+}   
+
+
+body .main .form p a {
+    text-decoration: none;
+    color: #FFAFCC;
+    font-weight: bold;
+}   
+    
+
