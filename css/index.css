@@ -22,6 +22,30 @@ body .container .mensagem {
     align-items: center;
 }
 
-body .container .mensagem h1 {
-    padding: 30px;
+body .container .mensagem .bloco1 {
+    width: 40%;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .container .mensagem .bloco1 p {
+    font-size: 29px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body .container .mensagem .bloco2 {
+    width: 60%;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .container .mensagem .bloco2 p {
+    font-size: 19px;
 }
